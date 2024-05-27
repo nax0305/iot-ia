@@ -1,4 +1,4 @@
-package com.nax.listener;
+package com.nax.pubsub;
 
 /*  订阅者接口，所有订阅WeatherServer 的订阅这都要实现该接口
 *

@@ -1,4 +1,4 @@
-package com.nax.listener;
+package com.nax.pubsub;
 
 import java.util.ArrayList;
 import java.util.List;

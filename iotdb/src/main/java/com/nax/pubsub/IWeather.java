@@ -1,4 +1,4 @@
-package com.nax.listener;
+package com.nax.pubsub;
 
 /* 发布者接口，定义注册发布者接口*/
 
