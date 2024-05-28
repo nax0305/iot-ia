@@ -4,6 +4,13 @@ import org.eclipse.milo.opcua.sdk.client.OpcUaClient;
 
 public class OpcUaStart {
 
+    /**
+    * @Description: start
+    * @Param: []
+    * @return: void
+    * @Author: nax0305
+    * @Date: 2024/5/28
+    */
     public static void start() throws Exception {
         OcpuaClientUtil opcUaClientService = new OcpuaClientUtil();
 
@@ -15,14 +22,14 @@ public class OpcUaStart {
         NodeId nodeId = new NodeId(2, "HB.1.SJ1.plcplb.plcwzlsd");*/
 
         // 读取指定节点的值
-        opcUaClientService.readNodeValue(client, 2, "HB.1.SJ1.plcplb.plcwzlsd");
+        opcUaClientService.readNodeValue(client, 2, "HB.1.SJ1.yqydgl.fmgd");
         /*opcUaClientService.readNodeValue(client, 2, "Demo.1500PLC.D2");*/
 
         // 向指定节点写入数据
         /*opcUaClientService.writeNodeValue(client, 2, "Demo.1500PLC.D1", 6f);*/
 
         // 订阅指定节点
-        opcUaClientService.subscribe(client, 2, "HB.1.SJ1.plcplb.plcwzlsd");
+        opcUaClientService.subscribe(client, 2, "HB.1.SJ1.yqydgl.fmgd");
 
         // 批量订阅多个节点
         /*List<String> identifiers = new ArrayList<>();
